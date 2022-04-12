@@ -10,14 +10,48 @@ body {
   float: left;
 }
 
+.box p {
+  text-align: center;
+}
+
 .box-1 {
-  background-color: aquamarine;
+  background: linear-gradient(to left, rgb(0, 141, 59), orange);
+  border: 5px dashed green;
+  color: rgb(128, 0, 128);
 }
 
 .box-2 {
-  background-color: brown;
+  background: linear-gradient(to bottom, rgb(66, 53, 53), rgb(0, 0, 0));
+  border: 10px solid gray;
+  color: rgb(255, 255, 255);
 }
 
 .box-3 {
-  background-color: bisque;
+  background: radial-gradient(rgb(148, 212, 255) 0%, rgb(21, 0, 255) 100%);
+  border: 7px groove blue;
+  color: rgb(255, 0, 0);
+}
+
+.box-4 {
+  background: repeating-linear-gradient(
+    -135deg,
+    transparent 0 20px,
+    rgb(255, 0, 0) 20px 40px
+  );
+  border: 5px double rgb(255, 0, 0);
+}
+
+.box-5 {
+  background: radial-gradient(#0ebbff 30%, #290698 80%, #1e0472);
+  border: 4px dotted #0ebbff;
+  color: #0ebbff;
+}
+
+.box-6 {
+  background: conic-gradient(
+    from 35deg,
+    rgb(0, 255, 0) 30%,
+    rgb(0, 141, 59) 80%
+  );
+  border: 3px solid rgb(0, 141, 59);
 }
