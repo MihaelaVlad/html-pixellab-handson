@@ -1,6 +1,6 @@
 .box {
-  width: 25px; 
-  height: 25px; 
+  width: 25px;
+  height: 25px;
   display: inline-block;
 }
 
@@ -22,4 +22,107 @@
 
 .box-yellow {
   background-color: yellow;
+}
+
+.box-red {
+  transition: width 3s linear;
+}
+
+.box-red:hover {
+  width: 120px;
+}
+
+.box-green {
+  transition: transform 5s linear;
+}
+
+.box-green:hover {
+  transform: rotate(360deg) scale(1.5);
+}
+
+.box-purple {
+  transition: width 4s ease 1s, height 4s ease 1s;
+}
+
+.box-purple:hover {
+  width: 100px;
+  height: 100px;
+}
+
+.box-brown {
+  transition: transform 4s ease-in;
+}
+
+.box-brown:hover {
+  transform: rotate(-180deg) scale(0.5);
+}
+
+.box-yellow {
+  transition: transform 3s ease-in-out;
+}
+
+.box-yellow:hover {
+  transform: scale(2);
+}
+
+/* Exercitii suplimentare */
+
+.container {
+  width: 80%;
+  height: 50%;
+  border: 1px solid rgba(180, 41, 41);
+  margin: 25px 0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.object {
+  width: 50px;
+  height: 50px;
+}
+
+.object-red {
+  background-color: red;
+}
+
+.object-red {
+  transition: transform 3s ease-in-out, border-radius 3s ease-in-out;
+}
+
+.object-red:hover {
+  transform: translate(300px);
+  border-radius: 50%;
+}
+
+.object-green {
+  background-color: green;
+}
+
+.object-green {
+  transition: transform 3s ease-in, background-color 3s ease-in;
+}
+
+.object-green:hover {
+  transform: translate(-300px, 0) rotate(360deg) scale(1.5);
+  background-color: aqua;
+}
+
+.object-blue {
+  background-color: blue;
+  border: 1px solid transparent;
+}
+
+.object-blue {
+  transition: transform 2s ease-in-out, background-color 2s ease-in-out,
+    border-color 2s ease-in, border-radius 2s ease-in;
+}
+
+.object-blue:hover {
+  transform: scale(2);
+  background-color: rgb(35, 248, 255);
+  border-color: rgb(18, 131, 139);
+  border-radius: 10%;
 }
