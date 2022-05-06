@@ -1,0 +1,677 @@
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../fonts/PlayfairDisplay-ExtraBold.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplay-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../fonts/PlayfairDisplay-BoldItalic.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplay-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../fonts/PlayfairDisplay-ExtraBoldItalic.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplay-ExtraBoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../fonts/PlayfairDisplay-SemiBold.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplay-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../fonts/PlayfairDisplay-BlackItalic.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplay-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../fonts/PlayfairDisplay-MediumItalic.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplay-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../fonts/PlayfairDisplay-SemiBoldItalic.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplay-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../fonts/PlayfairDisplay-Medium.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplay-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../fonts/PlayfairDisplay-Italic.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplay-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../fonts/PlayfairDisplay-Black.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplay-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplay-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-MediumItalic.woff2') format('woff2'),
+    url('../fonts/Roboto-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+    url('../fonts/Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+    url('../fonts/Roboto-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-LightItalic.woff2') format('woff2'),
+    url('../fonts/Roboto-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Italic.woff2') format('woff2'),
+    url('../fonts/Roboto-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Light.woff2') format('woff2'),
+    url('../fonts/Roboto-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+    url('../fonts/Roboto-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-BoldItalic.woff2') format('woff2'),
+    url('../fonts/Roboto-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-BlackItalic.woff2') format('woff2'),
+    url('../fonts/Roboto-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Black.woff2') format('woff2'),
+    url('../fonts/Roboto-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-ThinItalic.woff2') format('woff2'),
+    url('../fonts/Roboto-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Thin.woff2') format('woff2'),
+    url('../fonts/Roboto-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+/* http://meyerweb.com/eric/tools/css/reset/
+  v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Playfair', serif;
+  font-size: 16px;
+  color: #2b2b2b;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* header */
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1272px;
+}
+
+.header-top {
+  background: url('./../images/banner.png') no-repeat center center / cover;
+  padding-bottom: 450px;
+}
+
+.header-top-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-connect {
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.header-connect li {
+  display: inline-block;
+  color: #fff;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+.header-connect li i[class*='fa-'] {
+  font-size: 22px;
+}
+
+.header-connect li:nth-child(5) {
+  text-transform: uppercase;
+}
+
+.header-controls {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-right: 100px;
+  padding-left: 20px;
+}
+
+.header-controls li {
+  display: inline-block;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+.header-search {
+  position: relative;
+}
+
+.header-search input[type='text'] {
+  height: 40px;
+  width: 254px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding-left: 35px;
+}
+
+.header-search input[type='text']:focus {
+  outline: none;
+}
+
+.header-search input[type='text']::placeholder {
+  color: #2b2b2b;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.header-search button[type='submit'] {
+  cursor: pointer;
+  position: absolute;
+  top: 6px;
+  left: 0;
+  background-color: transparent;
+  border: none;
+  font-size: 22px;
+}
+
+.user-controls li i[class*='fa-'] {
+  font-size: 22px;
+}
+
+.header-nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #2b2b2b;
+  color: #e8e8e8;
+}
+
+.header-nav li {
+  padding: 15px 50px;
+}
+
+.header-nav li a {
+  text-transform: uppercase;
+  font-size: 19px;
+}
+
+/* end-header */
+
+/* footer */
+.footer {
+  font-size: 22px;
+  text-transform: lowercase;
+  background-color: #e8e8e8;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-contact {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.footer-contact ul li {
+  line-height: 28px;
+  margin-bottom: 8px;
+}
+
+.footer-nav {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.footer-nav ul li {
+  margin-bottom: 8px;
+}
+
+.footer-connect {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.footer-newsletter {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.footer-newsletter input[type='email'] {
+  height: 34px;
+  width: 228px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.footer-newsletter input[type='email']:focus {
+  outline: none;
+}
+
+.footer-newsletter input[type='email']::placeholder {
+  color: #2b2b2b;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer-newsletter button[type='submit'] {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #2b2b2b;
+  font-size: 12px;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.footer-newsletter button[type='submit']:hover {
+  background-color: #2b2b2b;
+  color: #fff;
+}
+
+.footer-social {
+  margin-top: 20px;
+}
+
+.footer-social ul {
+  display: flex;
+  gap: 12px;
+}
+
+.footer-social li i[class*='fa-'] {
+  font-size: 22px;
+}
+/* end-footer */
+
+/* main */
+.content > section > header {
+  text-align: center;
+}
+
+.content > section > header > h1 {
+  font-size: 35px;
+  color: #292929;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 22px;
+}
+
+.home-catalog-preview {
+  border-top: 1px solid #ccc;
+  margin-top: 30px;
+}
+
+.product-tiles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 80px;
+}
+
+.product-tile {
+  width: 23.67%;
+}
+
+.product-tile-image img {
+  width: 100%;
+}
+
+.product-tile-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.product-tile-header i[class*='fa-'] {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 22px;
+  transition: color 0.2s ease-in-out;
+}
+
+.product-tile-header i[class*='fa-']:hover {
+  color: #646464;
+  font-size: 26px;
+}
+
+.product-tile-title {
+  display: block;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.product-tile-pricing {
+  display: block;
+  text-align: center;
+}
+
+.product-price {
+  font-size: 22px;
+}
+
+.home-catalog-ctas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 140px;
+}
+
+.home-catalog-ctas a {
+  position: absolute;
+  cursor: pointer;
+  padding: 14px;
+  transition: border 0.3s ease-in-out, text-transform 0.3s ease-in-out;
+}
+
+.home-catalog-ctas a:hover {
+  border: 1px solid #2b2b2b;
+  text-transform: uppercase;
+}
+
+.header-products-category {
+  text-transform: uppercase;
+}
+
+.home-brand-marketing {
+  display: flex;
+  margin-bottom: 110px;
+  margin-top: 110px;
+}
+
+.home-brand-marketing h1 {
+  font-size: 44px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  margin-left: 100px;
+}
+
+.home-brand-marketing p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 34px;
+  margin-bottom: 40px;
+  margin-left: 100px;
+}
+/* end-main */
