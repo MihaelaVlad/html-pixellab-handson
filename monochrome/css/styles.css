@@ -447,17 +447,20 @@ a {
   font-size: 22px;
 }
 
+.header-bottom {
+  background-color: #2b2b2b;
+}
+
 .header-nav ul {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: row;
-  background-color: #2b2b2b;
   color: #e8e8e8;
 }
 
 .header-nav li {
-  padding: 15px 50px;
+  padding: 15px 0px;
 }
 
 .header-nav li a {
@@ -638,15 +641,15 @@ a {
 }
 
 .home-catalog-ctas a {
-  position: absolute;
   cursor: pointer;
   padding: 14px;
-  transition: border 0.3s ease-in-out, text-transform 0.3s ease-in-out;
+  border: 1px solid #2b2b2b;
+  transition: background-color 0.3s ease-in-out, color 0.3 ease-in-out;
 }
 
 .home-catalog-ctas a:hover {
-  border: 1px solid #2b2b2b;
-  text-transform: uppercase;
+  background-color: #2b2b2b;
+  color: #fff;
 }
 
 .header-products-category {
